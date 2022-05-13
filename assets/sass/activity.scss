@@ -7,8 +7,25 @@
 body {
     // I prefer only the left and right margins for the post.
     align-items: unset;
-
     overflow-y: scroll;
+
+    // customized stuff
+    //font-size: 25px;
+    color: #eaeaea;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+}
+
+blockquote {
+  color: #aaa;
+  padding-left: 10px;
+  border-left: 1px dotted #666;
+}
+
+img {
+  margin: auto;
+  display: block;
 }
 
 #content {
